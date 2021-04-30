@@ -105,15 +105,15 @@ const movieTemplate = (movieDetail) => {
 
     return `
         <article class="media">
-            <figure class="media-left>
+            <figure class="media-left">
                 <p class="image">
                     <img src="${movieDetail.Poster}"/>
                 </p>
             </figure>
-            <div class="media-content>
+            <div class="media-content">
                 <div class="content">
-                    <h1 class="title is-1">${movieDetail.Title}</h1>    
-                    <h4 class="title is-4">${movieDetail.Genre}</h1>    
+                    <h1>${movieDetail.Title}</h1>    
+                    <h4>${movieDetail.Genre}</h1>    
                     <p>${movieDetail.Plot}</p>    
                 </div>
             </div>

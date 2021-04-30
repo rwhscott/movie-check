@@ -112,7 +112,7 @@ const movieTemplate = (movieDetail) => {
             </figure>
             <div class="media-content">
                 <div class="content">
-                    <h1>${movieDetail.Title}</h1>    
+                    <h1>${movieDetail.Title} (${movieDetail.Year})</h1>    
                     <h4>${movieDetail.Genre}</h1>    
                     <p>${movieDetail.Plot}</p>    
                 </div>
